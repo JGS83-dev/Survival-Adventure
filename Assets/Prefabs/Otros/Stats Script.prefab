@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1204481635987530}
+  m_IsPrefabAsset: 1
+--- !u!1 &1204481635987530
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4847807334647942}
+  - component: {fileID: 114035750737422014}
+  m_Layer: 0
+  m_Name: Stats Script
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4847807334647942
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1204481635987530}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.45661214, y: -2.941575, z: 0.061234936}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114035750737422014
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1204481635987530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c355fac436659bd43bf159c1f04526b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EstadoVida: {fileID: 0}
+  EstadoComida: {fileID: 0}
+  EstadoEnergia: {fileID: 0}
+  EstadoAgua: {fileID: 0}
+  player: {fileID: 0}
+  vidaStat: {fileID: 0}
+  aguaStat: {fileID: 0}
+  energiaStat: {fileID: 0}
+  comidaStat: {fileID: 0}
+  VidaActual: {fileID: 0}
+  ComidaActual: {fileID: 0}
+  EnergiaActual: {fileID: 0}
+  AguaActual: {fileID: 0}
+  estado: 0
+  Vida: 50
+  VidaDis: 0.005
+  Comida: 100
+  ComidaDis: 0.0005
+  ComidaDis2: 0
+  Energia: 0
+  EnergiaDis: 0
+  Agua: 0
+  AguaADis: 0
+  AguaDis2: 0
+  velocidad: 0.01
+  VidaAu: 0.00005
+  EnergiaAu: 0
+  AguaAu: 0
+  ComidaAu: 0
+  ParaComAuVida: 75
+  final: {fileID: 0}
+  jugador: {fileID: 0}
+  energiaObj: {fileID: 0}

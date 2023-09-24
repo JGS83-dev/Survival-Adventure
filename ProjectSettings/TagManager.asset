@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Area
+  - Recolectar
+  - Dano
+  - Ataque
+  - Activador
+  - Activador2
+  - musicaC
+  - musicaB
+  - Animal
+  - FogataOn
+  - FogataVa
+  - FogataOff
+  - Fuego
+  - Jarron
+  - Madera
+  - Piedra
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Visible
+    uniqueID: 1717548289
+    locked: 0
+  - name: Player
+    uniqueID: 3690478735
+    locked: 0
+  - name: PantPau
+    uniqueID: 1434524017
+    locked: 0
+  - name: Fondo1
+    uniqueID: 3621067193
+    locked: 0
+  - name: Fondo2
+    uniqueID: 2417094161
+    locked: 0
